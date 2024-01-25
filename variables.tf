@@ -20,7 +20,7 @@ variable "aws_region" {
 variable "ami" {
    type        = string
    description = "Ubuntu AMI ID"
-   default     = "ami-0f5ee92e2d63afc18"
+   default     = "ami-03f4878755434977f"
 }
 
 variable "instance_type" {
@@ -32,5 +32,5 @@ variable "instance_type" {
 variable "name_tag" {
    type        = string
    description = "Name of the EC2 instance"
-   default     = "My EC2 Instance"
+   default     = "Terraform"
 }
