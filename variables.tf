@@ -1,6 +1,3 @@
-
-
-
 variable "ami" {
    type        = string
    description = "Ubuntu AMI ID"
